@@ -29,7 +29,6 @@ public class Task9 {
     // Function to find gcd of array of
     // numbers
 
-
     static int findGCD(int arr[], int n) {
         int result = arr[0];
         for (int i = 1; i < n; i++)
