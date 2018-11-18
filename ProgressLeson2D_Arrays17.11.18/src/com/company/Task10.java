@@ -21,7 +21,7 @@ public class Task10 {
         }
 
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j = j + 2) {
+            for (int j = 1; j < arr[i].length; j = j + 2) {
 
                 if(arr[i][j] % 2 != 0){
                     evenSum = evenSum + arr[i][j];
